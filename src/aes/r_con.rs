@@ -1,0 +1,8 @@
+//
+// EPITECH PROJECT, 2024
+// r_con.rs
+// File description:
+// RCON constant for RCon calculus
+//
+
+pub const RCON: [u8; 10] = [0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80, 0x1b, 0x36];

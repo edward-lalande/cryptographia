@@ -1,0 +1,15 @@
+[package]
+name = "my_pgp"
+version = "0.1.0"
+edition = "2021"
+[dependencies]
+num-bigint = "0.4.6"
+hex = "0.4"
+num-traits = "0.2.19"
+num-integer = "0.1.46"
+[patch.crates-io]
+autocfg = { path = "vendor/autocfg" }
+hex = { path = "vendor/hex" }
+num-bigint = { path = "vendor/num-bigint" }
+num-integer = { path = "vendor/num-integer" }
+num-traits = { path = "vendor/num-traits" }
